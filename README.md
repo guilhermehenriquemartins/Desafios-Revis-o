@@ -12,3 +12,5 @@
 <a href="https://guilhermehenriquemartins.github.io/Desafios-Revis-o/d008/d008.html" target="_blank" rel="external">Desafio 008</a>
 
 <a href="https://guilhermehenriquemartins.github.io/Desafios-Revis-o/d009/d009.html" target="_blank" rel="external">Desafio 009</a>
+
+<a href="https://guilhermehenriquemartins.github.io/Desafios-Revis-o/d010/d010.html" target="_blank" rel="external">Desafio 010</a>
