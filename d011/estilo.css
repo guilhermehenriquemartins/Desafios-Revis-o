@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    background-image: radial-gradient(circle, rgb(58, 58, 58), rgb(24, 24, 24));
+    background-attachment: fixed;
+}
+
+h1 {
+    color: white;
+    font-family: 'Anek Malayalam', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+img {
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    margin-top: 50px;
+}
+
+main {
+    text-align: center;
+}
+
+.cursos {
+    display: inline-block;
+    background-image: linear-gradient(to bottom, rgb(22, 22, 22), rgb(38, 38, 38));
+    width: 40%;
+    padding: 10px 10px 1px 5px;
+    margin: 3px auto;
+    border-radius: 10px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+h2::before {
+    content: "> ";
+}
+
+h2::after {
+    content: " <";
+}
