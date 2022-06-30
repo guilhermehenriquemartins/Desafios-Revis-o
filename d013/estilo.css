@@ -51,7 +51,7 @@ article {
     padding: 5px;
     border-radius: 5px;
     height: 100%;
-    max-width: 40%;
+    max-width: 25%;
     margin-top: 5px;
 }
 
@@ -62,7 +62,7 @@ img {
 h2 {
     color: white;
     margin-top: 5px;
-    font: normal 1.2em 'Texto-Cursos', sans-serif;
+    font: normal 1.1em 'Texto-Cursos', sans-serif;
 }
 
 h2::before {
