@@ -31,10 +31,93 @@
             text-indent: 20px;
             line-height: 25px;
         }
+        #video {
+            text-align: center;
+            background-color: black;
+            border-radius: 10px;
+            padding: 10px;
+            padding-bottom: 20px;
+            max-width: 50%;
+            margin: 20px auto;
+        }
+        h2 {
+            color: white;
+            font: normal 400 1.3em 'Montserrat', sans-serif;
+        }
+        img {
+            width: 50px;
+        }
+        a {
+            text-decoration: none;
+        }
+        aside {
+            text-align: center;
+            background-color: black;
+            margin: 80px -8px -8px -8px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        aside > h2 {
+            font: normal 600 2em 'Montserrat', sans-serif;
+            color: rgb(0, 85, 254);
+        }
+        .botao {
+            margin: 10px auto;
+            color: white;
+            background-color: rgb(0, 85, 254);
+            max-width: 30%;
+            padding: 20px 30px;
+        }
+        .titulo {
+            font: normal 400 1.6em 'Montserrat', sans-serif;
+        }
+        .subtitulo {
+            font: normal 100 1em 'Montserrat', sans-serif;
+        }
+        #botoes {
+            margin-top: 40px;
+        }
+        a:hover > .botao {
+            background-color: rgb(38, 110, 255);
+            transition: 0.5s;
+        }
+        a:active > .botao {
+            background-color: rgb(28, 28, 28);
+            color: rgb(38, 110, 255);
+            transition: 0s;
+        }
     </style>
 </head>
 <body>
     <h1>CURSO PYTHON</h1>
     <p>Você está pensando em ser um Programador e não sabe por onde começar? Pois nessa aula vamos te dar todas as informações e mostrar o caminho a seguir. Um bom programador consegue resolver problemas de forma mais rápida, é mais criativo, tem espírito de comunidade e aprende as coisas mais rápido.</p>
+    <div id="video">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/S9uPNppGsGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0&index=2" target="_blank" rel="external">
+            <h2>Veja o curso completo</h2>
+        </a>
+        <a href="d013.html" target="_self" rel="prev"><img src="imgs/seta.png" alt="Voltar"></a>
+    </div>
+    <aside>
+        <h2>CONHEÇA OS MUNDOS DO PYTHON!</h2>
+        <p>Obtenha a melhor experiência para os seus estudos e sua carreira com a nossa grade de estudos. Conheça cada um dos mundos e saiba mais sobre cada curso:</p>
+        <section id="botoes">
+            <a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6" target="_blank" rel="external">
+                <div class="botao">
+                    <span class="titulo">MUNDO 1:</span> <br> <span class="subtitulo">Fundamentos</span>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=nJkVHusJp6E&list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye" target="_blank" rel="external">
+                <div class="botao">
+                    <span class="titulo">MUNDO 2:</span> <br> <span class="subtitulo">Estruturas de Controle</span>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=0LB3FSfjvao&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH" target="_blank" rel="external">
+                <div class="botao">
+                    <span class="titulo">MUNDO 3:</span> <br> <span class="subtitulo">Estruturas Compostas</span>
+                </div>
+            </a>
+        </section>
+    </aside>
 </body>
 </html>
