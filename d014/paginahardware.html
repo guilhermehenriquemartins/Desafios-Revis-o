@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware</title>
+    <link rel="shortcut icon" href="../d002/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        @font-face {
+            font-family: 'paragrafo';
+            src: url('fonts/Roboto-Regular.ttf') format ('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        :root {
+            --tituloprincipal: 'Kanit', sans-serif;
+            --paragrafo: 'paragrafo', sans-serif;
+            --links: 'Rubik', sans-serif;
+        }
+
+        body {
+            background-image: radial-gradient(circle, #00A92D, #00621A);
+            background-attachment: fixed;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.852);
+            margin: -8px -8px 30px -8px;
+            padding: 10px 0px;
+            font: normal 500 2em var(--tituloprincipal);
+        }
+
+        p {
+            color: white;
+            text-align: center;
+            max-width: 60%;
+            margin: auto;
+            font: normal 1.1em var(--paragrafo);
+            line-height: 25px;
+            margin-top: -10px;
+        }
+
+        #video {
+            text-align: center;
+            background-color: black;
+            margin: auto;
+            margin-top: 30px;
+            max-width: 50%;
+            padding: 10px;
+            border-radius: 10px;
+            padding-bottom: 60px;
+            height: 400px;
+        }
+
+        h2 {
+            color: white;
+            font: normal 400 1.3em var(--links);
+        }
+
+        img {
+            width: 50px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        h2:hover {
+            font-size: 1.4em;
+            transition: 0.5s;
+        }
+
+        img:hover {
+            width: 60px;
+            transition: 0.5s;
+        }
+        
+        section {
+            text-align: center;
+            background-color: black;
+            margin: 80px -8px -8px -8px;
+            padding: 80px 0px;
+        }
+
+        section > #Subtitulo {
+            font: normal 500 2em var(--tituloprincipal);
+            color: #00A92D;
+        }
+
+        .botoes {
+            display: inline-block;
+            color: black;
+            font: normal 500 1em var(--links);
+            background-color: #00A92D;
+            margin: auto 10px;
+            margin-bottom: 5px;
+            width: 25%;
+            line-height: 25px;
+            padding: 20px 40px;
+        }
+
+        aside {
+            text-align: center;
+            margin: 30px auto;
+            max-width: 70%;
+        }
+
+        .botoes:hover {
+            width: 30%;
+            background-color: #00e33d;
+            transition: 1s;
+        }
+
+        .botoes:active {
+            background-color: rgb(22, 22, 22);
+            color: #00A92D;
+            transition: 0.1s;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CURSO HARDWARE</h1>
+    <p>Você sabe montar um computador? Sabe as técnicas para dimensionar um PC para as necessidades específicas? Então não deixe de ver esse vídeo até o final para entender como será essa nova série do canal: o CURSO DE HARDWARE!</p>
+    <div id="video">
+        <iframe width="100%" height="80%" src="https://www.youtube.com/embed/zpK_MqEMgu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/watch?v=iT6E92Kt38o&list=PLHz_AreHm4dn1JHgN9wpbIUhzZmycYQXW" target="_blank" rel="external">
+            <h2>Veja o curso completo</h2>
+        </a>
+        <a href="index.html" target="_self" rel="prev"><img src="imgs/seta.png" alt="Voltar"></a>
+    </div>
+    <section>
+        <h2 id="Subtitulo">SAIBA MAIS</h2>
+        <p>Fique por dentro de mais novidades abaixo:</p>
+        <aside>
+            <a href="https://www.youtube.com/watch?v=aQpJPz7XkvE&list=PLHz_AreHm4dn1JHgN9wpbIUhzZmycYQXW&index=36" target="_blank" rel="external">
+                <div class="botoes">
+                    O NOTEBOOK IDEAL PARA APRENDER A PROGRAMAR
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=G9LFYiTbaMg&list=PLHz_AreHm4dn1JHgN9wpbIUhzZmycYQXW&index=37" target="_blank" rel="external">
+                <div class="botoes">
+                    APRENDA A MONTAR UM PC COM JOGO GRATUITO
+                </div>
+            </a>
+        </aside>
+    </section>
+</body>
+</html>
