@@ -74,7 +74,9 @@ a {
 
 main {
     margin: -20px 20px;
+    padding: 10px 0px 90px 0px;
     background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.408);
 }
 
 p {
@@ -83,15 +85,64 @@ p {
     max-width: 70%;
     margin: auto;
     padding: 20px 0px;
-    font: normal 1em var(--fonteparagrafo);
+    font: normal 1.1em var(--fonteparagrafo);
 }
 
 .cursos {
     display: inline-block;
-    max-width: 40%;
-    border: 1px solid black;
+    max-width: 30%;
+    background-color: white;
+    margin-left: -5px;
+    padding: 5px 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
 }
 
 img {
     width: 100%;
+}
+
+#bloco_curso {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: #90bcff;
+    width: 90%;
+    padding: 5px 0px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 100px;
+    font: normal 600 0.8em var(--fontelink);
+}
+
+h2::before {
+    content: '> ';
+    font-size: 0.8em;
+}
+
+h2::after {
+    content: ' <';
+    font-size: 0.8em;
+}
+
+.cursos:hover > h2 {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.cursos:active > h2 {
+    background-color: #116FFF;
+    transition: 0.1s;
+}
+
+footer {
+    background-color: black;
+    margin: 0px 19px -8px 19px;
+}
+
+footer > p {
+    color: white;
 }
