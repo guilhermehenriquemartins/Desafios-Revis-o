@@ -140,9 +140,15 @@ h2::after {
 
 footer {
     background-color: black;
+    color: white;
+    padding-bottom: 20px;
     margin: 0px 19px -8px 19px;
 }
 
 footer > p {
-    color: white;
+    margin-top: -30px;
+}
+
+.linkrodape {
+    color: #116FFF;
 }
