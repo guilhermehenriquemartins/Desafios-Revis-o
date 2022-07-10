@@ -17,6 +17,10 @@
     --fontelink: 'Comfortaa', cursive;
 }
 
+body {
+    background-color: #116EFD;
+}
+
 header {
     color: white;
     background-image: linear-gradient(to bottom, rgb(70, 70, 70), black);
@@ -82,4 +86,131 @@ li:hover {
 a {
     text-decoration: none;
     color: white;
+}
+
+main {
+    background-color: white;
+    margin: -20px auto;
+    width: 95%;
+    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.353);
+    padding: 30px 0px;
+}
+
+p {
+    font: normal 1.1em var(--fonteparagrafo);
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+#video {
+    text-align: center;
+    max-width: 55%;
+    height: 450px;
+    margin: 30px auto;
+}
+
+h2 {
+    font: normal 600 1em var(--fontelink);
+    padding: 7px 20px;
+    border-radius: 100px;
+    color: white;
+    background-color: #90BCFF;
+    width: 70%;
+    margin: 15px auto;
+}
+
+h2:hover {
+    width: 85%;
+    transition: 0.5s;
+}
+
+h2:active {
+    background-color: #116FFF;
+    transition: 0.2s;
+}
+
+h2::before {
+    content: '> ';
+    font-size: 0.8em;
+}
+
+h2::after {
+    content: ' <';
+    font-size: 0.8em;
+}
+
+img {
+    background-color: #90BCFF;
+    border-radius: 100px;
+    width: 50px;
+}
+
+img:hover {
+    width: 60px;
+    outline-width: 7px;
+    outline-style: solid;
+    outline-color: #90BCFF;
+    transition: 0.2s;
+}
+
+img:active {
+    width: 70px;
+    outline: 1px solid #90BCFF;
+    background-color: #116FFF;
+    transition: 0.1s;
+}
+
+footer {
+    background-color: black;
+    margin: 20px auto -8px auto;
+    width: 95%;
+    padding: 30px 0px;
+}
+
+#subtitulo {
+    text-align: center;
+    background-color: black;
+    color: #116FFF;
+    font: normal 700 1.8em var(--fontetitulo);
+}
+
+#subtitulo::before {
+    content: '';
+}
+
+#subtitulo::after {
+    content: '';
+}
+
+footer > p {
+    color: white;
+    margin-top: -10px;
+}
+
+aside {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #116FFF;
+    color: white;
+    width: 35%;
+    margin: 5px 3px;
+    padding: 35px 5px;
+    border-radius: 5px;
+    font: normal 500 1em var(--fontelink);
+}
+
+.botao:hover {
+    outline: 7px solid #116FFF;
+    transition: 0.2s;
+}
+
+.botao:active {
+    outline: 0px solid #116FFF;
+    background-color: #075ad6;
+    transition: 0.1s;
 }
