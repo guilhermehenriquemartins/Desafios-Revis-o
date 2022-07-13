@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'paragrafo';
+    src: url('fonts/coolvetica\ rg.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root {
+    --fontetitulo: 'Titillium Web', sans-serif;
+    --fonteparagrafo: 'paragrafo', sans-serif;
+    --fontelink: 'Comfortaa', cursive;
+}
+
+body {
+    background-color: #116EFD;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(60, 60, 60), black);
+    margin: -22px -8px 20px -8px;
+    padding: 5px 0px;
+}
+
+h1 {
+    font: normal 600 2.8em var(--fontetitulo);
+    color: #ACC1CC;
+}
+
+#javascript {
+    display: block;
+    background-color: gold;
+    color: black;
+    font-size: 0.9em;
+    margin: auto;
+    margin-top: -5px;
+    width: 250px;
+    padding: 0px 20px;
+    border-radius: 100px;
+}
+
+#javascript:hover {
+    color: white;
+}
+
+ul {
+    margin: 40px 10px -5px 10px;
+}
+
+li {
+    display: inline-block;
+    background-color: black;
+    margin-left: -4px;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font: normal 500 0.8em var(--fontelink);
+}
+
+li:hover {
+    background-color: #116FFF;
+    transition: 0.5s;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    margin: -20px 20px;
+    padding: 25px 0px 150px 0px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.503);
+}
+
+p {
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    font: 1.1em var(--fonteparagrafo);
+    line-height: 23px;
+}
+
+#video {
+    text-align: center;
+    height: 350px;
+    max-width: 55%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+h2 {
+    background-color: #90BCFF;
+    color: white;
+    font: normal 500 1em var(--fontelink);
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+    padding: 7px 20px;
+    border-radius: 100px;
+}
+
+h2::before {
+    content: '> ';
+    font-size: 0.8em;
+}
+
+h2::after {
+    content: ' <';
+    font-size: 0.8em;
+}
+
+h2:hover {
+    width: 90%;
+    transition: 0.5s;
+}
+
+h2:active {
+    background-color: #116FFF;
+    transition: 0.2s;
+}
+
+img {
+    width: 50px;
+    background-color: #90BCFF;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+img:hover {
+    outline-style: solid;
+    outline-width: 6px;
+    outline-color: #90BCFF;
+    width: 60px;
+    transition: 0.2s;
+}
+
+img:active {
+    outline: solid 0px;
+    background-color: #116FFF;
+    width: 70px;
+    transition: 0.2s;
+}
