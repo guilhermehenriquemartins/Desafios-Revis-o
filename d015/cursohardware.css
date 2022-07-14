@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'paragrafo';
+    src: url('fonts/coolvetica\ rg.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root {
+    --fontetitulo: 'Titillium Web', sans-serif;
+    --fonteparagrafo: 'paragrafo', sans-serif;
+    --fontelink: 'Comfortaa', cursive;
+}
+
+body {
+    background-color: forestgreen;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(73, 73, 73), black);
+    margin: -23px -8px 20px -8px;
+    padding: 10px 0px 25px 0px;
+}
+
+h1 {
+    color: #ACC1CC;
+    font: normal 600 2.8em var(--fontetitulo);
+    max-width: 80%;
+    margin: 25px auto;
+}
+
+#hardware {
+    display: block;
+    background-color: forestgreen;
+    font-size: 0.9em;
+    color: black;
+    max-width: 250px;
+    margin: auto;
+    margin-top: -5px;
+    padding: 0px 30px;
+    border-radius: 100px;
+}
+
+#hardware:hover {
+    background-color: rgb(49, 198, 49);
+    color: white;
+}
+
+ul {
+    padding-top: 25px;
+    margin-bottom: -25px;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font: normal 500 0.8em var(--fontelink);
+    margin-left: -4px;
+}
+
+li:hover {
+    background-color: forestgreen;
+    transition: 0.5s;
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    margin: -20px 20px;
+    padding: 20px 0px 150px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.401);
+}
+
+main > p {
+    font: normal 1.1em var(--fonteparagrafo);
+    max-width: 70%;
+    margin: 10px auto;
+    line-height: 22px;
+}
+
+#video {
+    text-align: center;
+    max-width: 55%;
+    height: 350px;
+    margin: auto;
+    margin-top: 30px;
+}

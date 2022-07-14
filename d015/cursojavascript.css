@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: #116EFD;
+    background-color: gold;
 }
 
 header {
@@ -64,7 +64,8 @@ li {
 }
 
 li:hover {
-    background-color: #116FFF;
+    background-color: #fff427;
+    color: black;
     transition: 0.5s;
 }
 
@@ -97,7 +98,7 @@ p {
 }
 
 h2 {
-    background-color: #90BCFF;
+    background-color: #fff427;
     color: white;
     font: normal 500 1em var(--fontelink);
     width: 70%;
@@ -123,13 +124,13 @@ h2:hover {
 }
 
 h2:active {
-    background-color: #116FFF;
+    background-color: #d4cb21;
     transition: 0.2s;
 }
 
 img {
     width: 50px;
-    background-color: #90BCFF;
+    background-color: #fff427;
     border-radius: 50%;
     margin-top: 15px;
 }
@@ -137,14 +138,71 @@ img {
 img:hover {
     outline-style: solid;
     outline-width: 6px;
-    outline-color: #90BCFF;
+    outline-color: #fff427;
     width: 60px;
     transition: 0.2s;
 }
 
 img:active {
     outline: solid 0px;
-    background-color: #116FFF;
+    background-color: #d4cb21;
     width: 70px;
     transition: 0.2s;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    margin: 20px 20px -8px 20px;
+    padding: 50px 0px;
+}
+
+footer > h2 {
+    background-color: black;
+    font: normal 700 1.7em var(--fontetitulo);
+    color: gold;
+}
+
+footer > h2::before {
+    content: '';
+}
+
+footer > h2::after {
+    content: '';
+}
+
+footer > p {
+    color: white;
+    margin-top: 10px;
+}
+
+aside {
+    margin-top: 20px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: gold;
+    width: 35%;
+    margin: 5px 3px;
+    padding: 40px 10px;
+    border-radius: 5px;
+    font: normal 700 1em var(--fontelink);
+}
+
+.botao:hover {
+    outline: solid 7px gold;
+    color: white;
+    transition: 0.2s;
+}
+
+.botaolink {
+    color: black;
+}
+
+.botao:active {
+    outline: 0px solid gold;
+    background-color: gold;
+    color: black;
+    transition: 0.1s;
 }
