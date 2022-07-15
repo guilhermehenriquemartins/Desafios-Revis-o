@@ -94,3 +94,93 @@ main > p {
     margin: auto;
     margin-top: 30px;
 }
+
+h2 {
+    background-color: #228B22;
+    color: white;
+    border-radius: 100px;
+    font: normal 500 1em var(--fontelink);
+    width: 70%;
+    margin: 20px auto;
+    padding: 7px 20px;
+}
+
+h2::before {
+    content: '> ';
+    font-size: 0.8em;
+}
+
+h2::after {
+    content: ' <';
+    font-size: 0.8em;
+}
+
+h2:hover {
+    width: 85%;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    background-color: #228B22;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+
+img:hover {
+    outline: solid 5px #228B22;
+    width: 60px;
+    transition: 0.2s;
+}
+
+img:active {
+    outline: 0px solid #228B22;
+    background-color: #196819;
+    width: 70px;
+    transition: 0.1s;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    margin: 20px 20px -15px 20px;
+    padding: 30px 0px;
+}
+
+h3 {
+    color: #228B22;
+    font: normal 700 2em var(--fontetitulo);
+}
+
+footer > p {
+    color: white;
+    font: normal 1.1em var(--fonteparagrafo);
+    margin-top: -20px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #228B22;
+    max-width: 35%;
+    margin: 10px auto;
+    margin-left: 5px;
+    padding: 50px 30px;
+    border-radius: 5px;
+    font: normal 700 0.9em var(--fontelink);
+}
+
+.botao:hover {
+    outline: solid 7px #228B22;
+    color: white;
+    transition: 0.2s;
+}
+
+aside {
+    max-width: 90%;
+    margin: auto;
+}
