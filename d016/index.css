@@ -45,13 +45,13 @@ p {
 
 #destaque {
     background-color: rgb(14, 42, 199);
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.271);
     padding: 5px 40px;
     border-radius: 100px;
 }
 
 nav {
     margin: 30px auto -40px auto;
-    padding: 5px 0px;
     max-width: 100%;
     background-color: rgb(1, 5, 28);
 }
@@ -60,8 +60,114 @@ li {
     display: inline-block;
     color: white;
     background-color: transparent;
-    padding: 10px 25px;
+    padding: 15px 25px;
     margin-left: -4px;
     border-radius: 5px;
     font: normal 500 0.9em var(--fonteparagrafo);
+}
+
+li:hover {
+    background-color: rgb(14, 42, 199);
+    transition-duration: 0.5s;
+}
+
+.menu {
+    text-decoration: none;
+}
+
+main {
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    max-width: 85%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.204);
+}
+
+main > h2 {
+    font: normal 1.7em var(--fontetitulo);
+    color: rgb(5, 18, 89);
+}
+
+main p {
+    color: black;
+    font: normal 600 1em var(--fonteparagrafo);
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 23px;
+    max-width: 90%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(5, 18, 89);
+    font-weight: 800;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #0E2AC7;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #0E2AC7, transparent);
+    max-width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: left;
+    padding: 5px 10px;
+    font: normal 1.3em var(--fontetitulo);
+    color: white;
+}
+
+h3::before {
+    content: '> ';
+}
+
+section {
+    background-color: #01051C;
+    padding: 20px 0px;
+    margin-top: 20px;
+    height: 300px;
+}
+
+footer {
+    margin-top: 15px;
+    text-align: center;
+    background-color: #01051C;
+    padding: 10px;
+}
+
+footer p {
+    margin-top: 3px;
+}
+
+#links {
+    background-color: #0E2AC7;
+    border-radius: 100px;
+    max-width: 50%;
+    padding: 7px 0px;
+}
+
+.rodape {
+    color: white;
+    background-color: transparent;
+    border-radius: 100px;
+    padding: 2px 15px;
+    font: normal 500 1em var(--fonteparagrafo);
+}
+
+.rodape:hover {
+    text-decoration: none;
+    background-color: #1332e4;
+    transition-duration: 0.3s;
+}
+
+#divisoria {
+    color: black;
 }
