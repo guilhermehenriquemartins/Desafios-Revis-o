@@ -171,3 +171,13 @@ footer p {
 #divisoria {
     color: black;
 }
+
+.curso:hover {
+    text-decoration: none;
+}
+
+.curso:hover > h3 {
+    padding-left: 30px;
+    margin-left: 20px;
+    transition: 2s;
+}
