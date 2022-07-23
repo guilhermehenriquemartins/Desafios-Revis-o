@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-
 @font-face {
     font-family: 'titulo';
     src: url('fonts/Cocogoose\ Pro-trial.ttf') format('truetype');
@@ -14,7 +12,6 @@
 :root {
     --fontetitulo: 'titulo', sans-serif;
     --fonteparagrafo: 'Albert Sans', sans-serif;
-    --fonteligacao: 'Roboto Condensed', sans-serif;
 }
 
 * {
@@ -23,47 +20,136 @@
 }
 
 body {
-    background-color: rgb(220, 220, 220);
     text-align: center;
+    background-color: rgb(221, 221, 221);
 }
 
 header {
-    background-image: linear-gradient(to bottom, rgb(97, 97, 97), black);
+    background-image: linear-gradient(to bottom, #051258, #020B37);
     color: white;
+    padding: 25px 0px;
 }
 
-h1 {
-    font: normal 2em var(--fontetitulo);
+header h1 {
+    font: 2.3em var(--fontetitulo);
+}
+
+#destaque {
+    display: block;
+    background-color: gold;
+    max-width: 300px;
+    margin: -5px auto 15px auto;
+    padding: 3px 40px;
+    color: white;
+    text-shadow: -2px 2px 0px rgb(204, 173, 0);
+    border-radius: 100px;
+    font-size: 0.9em;
+}
+
+#destaque::before {
+    content: '> ';
+    font-size: 0.9em;
+}
+
+#destaque::after {
+    content: ' <';
+    font-size: 0.9em;
 }
 
 header p {
-    font: normal 400 1em var(--fonteparagrafo);
+    font: normal 400 1.1em var(--fonteparagrafo);
+    width: 95%;
+    margin: auto;
 }
 
 nav {
-    font: normal 500 1em var(--fonteparagrafo);
-    color: white;
+    background-color: #01051C;
+    padding: 15px 0px;
 }
 
-a {
+nav a {
+    background-color: #01051C;
     color: white;
     text-decoration: none;
+    padding: 15px 20px;
+    margin-left: -4px;
+    font: normal 500 0.9em var(--fonteparagrafo);
 }
 
-nav {
-    background-color: black;
+nav a:hover {
+    background-color: gold;
+    color: #01051C;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+nav a:active {
+    background-color: #01051C;
+    color: gold;
+    transition-duration: 0.1s;
 }
 
 main {
     background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    border: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h2 {
+    color: #020B37;
+    font: 1.7em var(--fontetitulo);
+}
+
+main p {
     font: normal 500 1em var(--fonteparagrafo);
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 23px;
+}
+
+#video {
+    margin: 30px 0px;
+    background-color: #01051C;
 }
 
 h3 {
-    font: normal 900 1.5em var(--fonteparagrafo);
+    font: normal 600 1.4em var(--fonteparagrafo);
+    background-color: #00E3FD;
+    color: white;
+    width: 65%;
+    margin: auto;
+    margin-top: 15px;
+    padding: 5px 0px;
+    border-radius: 100px;
+    text-shadow: -1px 1px 0px #00b6cb;
+}
+
+h3:hover {
+    width: 80%;
+    transition-duration: 0.3s;
+}
+
+main a {
+    text-decoration: none;
+}
+
+main img {
+    width: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main img:hover {
+    width: 60px;
+    transition-duration: 0.3s;
 }
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: #051259;
 }
