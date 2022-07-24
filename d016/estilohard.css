@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'titulo';
+    src: url('fonts/Cocogoose\ Pro-trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --fontetitulo: 'titulo', sans-serif;
+    --fonteparagrafo: 'Albert Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #DDDDDD;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to bottom, #051256, #01051C);
+    min-height: 100px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+header h1 {
+    font: 2em var(--fontetitulo);
+}
+
+#destaque {
+    background-color: #50E473;
+    padding: 5px 30px;
+    border-radius: 100px;
+    text-shadow: -2px 2px 0px #3fb55b;
+}
+
+#destaque::before {
+    content: '> ';
+    font-size: 0.9em;
+}
+
+#destaque::after {
+    content: ' <';
+    font-size: 0.9em;
+}
+
+header p {
+    margin-top: 20px;
+    font: normal 500 1.1em var(--fonteparagrafo);
+    padding: 20px;
+}
+
+nav {
+    background-color: #01051C;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    background-color: #01051C;
+    padding: 15px 20px;
+    font: normal 400 0.9em var(--fonteparagrafo);
+    text-decoration: none;
+    margin-left: -4px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #50E473;
+    color: #01051C;
+    transition-duration: 0.5s;
+}
+
+main {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.151);
+    background-color: white;
+    padding: 30px 20px;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #01051C;
+    font: 1.7em var(--fontetitulo);
+}
+
+main p {
+    text-align: justify;
+    text-indent: 20px;
+    margin-bottom: 20px;
+    font: normal 400 1em var(--fonteparagrafo);
+    line-height: 23px;
+}
+
+#video {
+    background-color: #01051C;
+    margin: 0px -20px 30px -20px;
+}
+
+footer {
+    color: white;
+    background-color: #01051C;
+}
