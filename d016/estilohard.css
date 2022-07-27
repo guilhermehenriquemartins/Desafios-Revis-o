@@ -109,9 +109,66 @@ main p {
 #video {
     background-color: #01051C;
     margin: 0px -20px 30px -20px;
+    position: relative;
+    height: 200px;
+    padding-bottom: 250px;
+}
+
+#video > iframe {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: #50E473;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+aside > h3 {
+    background-color: #339049;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font: normal 500 1.2em var(--fonteparagrafo);
+}
+
+aside > ul {
+    list-style-position: inside;
+    font: normal 400 1em var(--fonteparagrafo);
+    list-style-type: '\00A0\2714\00A0';
+}
+
+aside p {
+    font: normal 300 1em var(--fonteparagrafo);
+    margin-top: 20px;
+}
+
+aside li::after {
+    content: '\1F517';
+}
+
+aside li:hover {
+    text-decoration: underline;
+}
+
+aside a {
+    color: black;
+    text-decoration: none;
 }
 
 footer {
+    text-align: center;
     color: white;
     background-color: #01051C;
+    padding: 15px 0px;
+    font: italic 400 1em var(--fonteparagrafo);
 }
