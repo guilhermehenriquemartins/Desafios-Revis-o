@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'titulo';
+    src: url('fonts/coolvetica\ rg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root {
+    --tituloprincipal: 'titulo', sans-serif;
+    --paragrafo: 'Work Sans', sans-serif;
+    --subtitulo: 'Righteous', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(229, 229, 229);
+}
+
+header {
+    background-image: linear-gradient(to bottom, #006EB9, #002D6A);
+    color: white;
+    text-align: center;
+    min-height: 100px;
+    padding: 20px;
+}
+
+header h1 {
+    font: normal 400 2em var(--tituloprincipal);
+}
+
+#destaque {
+    display: block;
+    font: 2em var(--tituloprincipal);
+    background-color: black;
+    border-radius: 100px;
+    max-width: 400px;
+    margin: auto;
+}
+
+header p {
+    margin-top: 10px;
+    font: normal 400 1.1em var(--paragrafo);
+    padding: 5px 20px;
+}
+
+nav {
+    text-align: center;
+    background-color: #012961;
+    padding: 10px;
+}
+
+nav a {
+    background-color: #012961;
+    color: white;
+    padding: 10px 15px;
+    margin-left: -4px;
+    border-radius: 5px;
+    text-decoration: none;
+    font: normal 500 1.1em var(--paragrafo);
+}
+
+nav a:hover {
+    background-color: #0083da;
+    color: #012961;
+    transition-duration: 0.5s;
+}
+
+nav a:active {
+    background-color: #000000;
+    color: white;
+    transition-duration: 0s;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.199);
+    margin-bottom: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h2 {
+    font: normal 800 1.5em var(--paragrafo);
+    text-align: center;
+    color: #002D6A;
+    margin: 20px 0px 50px 0px;
+}
+
+main h3 {
+    font: normal 600 1.3em var(--paragrafo);
+    color: white;
+    background-image: linear-gradient(to right, #057DCB, transparent);
+    padding: 10px;
+    text-indent: 10px;
+    border-radius: 100px;
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main p {
+    font: normal 300 1.1em var(--paragrafo);
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 20px;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main img {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    background-color: #002D6A;
+    color: white;
+}

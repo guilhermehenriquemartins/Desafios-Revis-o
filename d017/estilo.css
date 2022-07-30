@@ -135,6 +135,49 @@ main h3 {
     border-radius: 5px;
 }
 
+.link_nintendo {
+    font-weight: 600;
+    text-decoration: none;
+    color: #FF000A;
+    padding: 5px;
+}
+
+.link_nintendo::after {
+    content: '\00A0\1F517';
+}
+
+.link_nintendo:hover {
+    background-color: #ffbcbf;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.link_nintendo:active {
+    background-color: #ff5b63;
+    color: white;
+}
+
+.link_microsoft {
+    padding: 5px;
+    text-decoration: none;
+    color: #007D00;
+    font-weight: 600;
+}
+
+.link_microsoft::after {
+    content: '\00A0\1F517';
+}
+
+.link_microsoft:hover {
+    background-color: #c4fbc4;
+    border-radius: 5px;
+}
+
+.link_microsoft:active {
+    background-color: #4bc54b;
+    color: white;
+}
+
 #titulo_nintendo {
     background-image: linear-gradient(to right, #FF000A, transparent);
     color: white;
