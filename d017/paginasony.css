@@ -130,7 +130,114 @@ main img {
     margin: auto;
 }
 
-footer {
+#video {
+    background-color: #012961;
+    margin: 0px -20px;
+    position: relative;
+    padding-bottom: 590px;
+}
+
+#video > iframe {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+main a {
+    text-decoration: none;
+    color: #012961;
+    font-weight: 600;
+    background-color: #7EBCE4;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+main a::after {
+    content: '\00A0\1F517';
+}
+
+main a:hover {
+    background-color: #000000;
+    color: white;
+}
+
+main a:active {
+    background-color: white;
+    color: #002D6A;
+}
+
+aside h4 {
     background-color: #002D6A;
     color: white;
+    font: normal 500 1.1em var(--paragrafo);
+    padding: 10px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-indent: 20px;
+    margin: -20px;
+}
+
+aside {
+    background-color: #3A9AD6;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+aside p {
+    width: 100%;
+}
+
+aside > ul {
+    list-style-position: inside;
+    list-style-type: '\1F3AE\00A0';
+    padding: 20px;
+    columns: 2;
+    font: normal 100 1em var(--paragrafo);
+    margin-top: -25px;
+}
+
+.games {
+    background-color: transparent;
+    color: black;
+}
+
+.games:hover {
+    background-color: transparent;
+    color: black;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 20px 0px;
+}
+
+footer > p {
+    font: normal 300 1em var(--paragrafo);
+}
+
+#meu_endereco {
+    background-color: #007BCA;
+    width: 45%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-radius: 100px;
+    font: normal 500 1em var(--paragrafo);
+}
+
+#meu_endereco a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 25px;
+}
+
+#meu_endereco a:hover {
+    background-color: #3A9AD6;
+    border-radius: 100px;
+    transition-duration: 0.5s;
 }

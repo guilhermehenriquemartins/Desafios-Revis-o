@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(66, 66, 66), black);
+    color: white;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+main {
+    background-color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
