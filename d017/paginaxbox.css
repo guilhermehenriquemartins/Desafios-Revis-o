@@ -84,7 +84,77 @@ main {
 }
 
 h2 {
+    margin-top: 20px;
+    color: #000000;
     text-align: center;
+    font: 2em var(--tituloprincipal);
+}
+
+h3 {
+    margin: 20px 0px;
+    text-align: center;
+    font: normal 800 1em var(--paragrafo);
+}
+
+h4 {
+    background-image: linear-gradient(to right, #107C10, transparent);
+    padding: 10px;
+    color: white;
+    font: normal 700 1.4em var(--paragrafo);
+    border-radius: 100px;
+    text-indent: 20px;
+    margin: 20px;
+}
+
+#principal {
+    font: bold 1.5em var(--tituloxbox);
+    color: #107C10;
+}
+
+main p {
+    font: normal 100 1em var(--paragrafo);
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 0px 30px;
+}
+
+.video {
+    background-color: #107C10;
+    position: relative;
+    padding-bottom: 400px;
+    margin: 20px -20px;
+}
+
+.link {
+    color: #084708;
+    background-color: #75d875;
+    padding: 5px 10px;
+    border-radius: 100px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.link::after {
+    content: '\00A0\1F517';
+}
+
+.link:hover {
+    background-color: black;
+    color: white;
+}
+
+.link:active {
+    background-color: white;
+    color: #084708;
+}
+
+.video > iframe {
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    width: 70%;
+    height: 90%;
 }
 
 img {
