@@ -130,14 +130,14 @@ main img {
     margin: auto;
 }
 
-#video {
+.video {
     background-color: #012961;
     margin: 0px -20px;
     position: relative;
     padding-bottom: 590px;
 }
 
-#video > iframe {
+.video > iframe {
     position: absolute;
     left: 5%;
     top: 5%;
