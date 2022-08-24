@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    background-image: url('imgs/eleição.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+}
+
+#ciro {
+    background-image: url('imgs/ciro\ gomes.png');
+    background-size: cover;
+}
+
+#bolsonaro {
+    background-image: url('imgs/bolsonaro.jpg');
+    background-size: cover;
+}
+
+#lula {
+    background-image: url('imgs/lula.jpg');
+    background-size: cover;
+}
+
+#tebet {
+    background-image: url('imgs/simone\ tebet.jpg');
+    background-size: cover;
+}
