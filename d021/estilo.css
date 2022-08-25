@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --tituloprincipal: 'Roboto Condensed', sans-serif;
+    --fonteparagrafo: 'Quicksand', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    background-image: url('imgs/bandeira-brasil.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#destaque {
+    display: block;
+    width: 350px;
+    margin: 20px auto 10px auto;
+    font-size: 3.2em;
+    color: white;
+    background-color: red;
+}
+
+#subtitulo {
+    display: block;
+    margin-top: -25px;
+    color: red;
+}
+
+h1 {
+    font: normal 400 1.4em var(--tituloprincipal);
+    padding: 0px 20px;
+}
+
+p {
+    font: normal 500 1em var(--fonteparagrafo);
+    padding: 0px 20px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main {
+    margin: 30px 0px 50px 0px;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+}
+
+div {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#ciro {
+    background-image: url('imgs/ciro\ gomes.png');
+    background-size: cover;
+}
+
+#bolsonaro {
+    background-image: url('imgs/bolsonaro.jpg');
+    background-size: cover;
+}
+
+#lula {
+    background-image: url('imgs/lula.jpg');
+    background-size: cover;
+}
+
+#tebet {
+    background-image: url('imgs/simone\ tebet.jpg');
+    background-size: cover;
+}
