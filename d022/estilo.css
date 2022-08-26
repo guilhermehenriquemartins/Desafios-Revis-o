@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --tituloprincipal: 'Alfa Slab One', cursive;
+    --subtitulo: 'Roboto', sans-serif;
+    --fonteparagrafo: 'Dosis', sans-serif;
+}
+
+body {
+    background-image: url('imgs/bandeira-brasil.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94.5vh;
+}
+
+h1 {
+    font: normal 3em var(--tituloprincipal);
+    background-color: red;
+    color: white;
+    width: 300px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+h2 {
+    font: normal 400 1.3em var(--subtitulo);
+    color: red;
+    text-align: center;
+    margin-top: -15px;
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    padding-bottom: 25px;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+main p {
+    font: normal 500 1.1em var(--fonteparagrafo);
+    text-align: justify;
+    text-indent: 20px;
+    padding: 20px;
+}
+
+.bloco {
+    display: inline-block;
+    border: 1px solid transparent;
+    margin: 5px;
+    width: 120px;
+    height: 120px;
+}
+
+
+#Ciro {
+    background-image: url('imgs/ciro\ gomes.png');
+    color: transparent;
+    background-size: cover;
+}
+
+#Bolsonaro {
+    background-image: url('imgs/bolsonaro.jpg');
+    background-size: cover;
+    color: transparent;
+}
+
+#Lula {
+    background-image: url('imgs/lula.jpg');
+    background-size: cover;
+    color: transparent;
+}
+
+#Tebet {
+    background-image: url('imgs/simone\ tebet.jpg');
+    background-size: cover;
+    color: transparent;
+}
+
+#Bolsonaro > p {
+    position: absolute;
+    background-color: transparent;
+    padding: 49.5px 17px;
+    margin: auto;
+    text-align: center;
+}
+
+#Ciro > p {
+    position: absolute;
+    background-color: transparent;
+    padding: 49.5px 37px;
+    margin: auto;
+    text-align: center;
+}
+
+#Lula > p {
+    position: absolute;
+    background-color: transparent;
+    padding: 49px 36px;
+    margin: auto;
+    text-align: center;
+}
+
+#Tebet > p {
+    position: absolute;
+    background-color: transparent;
+    padding: 49.5px 32px;
+    margin: auto;
+    text-align: center;
+}
+
+#Bolsonaro:hover > p {
+    font-size: 1.5em;
+    transition-duration: 0.3s;
+}
+
+#Ciro:hover > p {
+    background-color: rgba(0, 0, 0, 0.31);
+    color: white;
+    transition-duration: 0.3s;
+}
+
+#Lula:hover > p {
+    display: block;
+}
+
+#Tebet:hover > p {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    width: 80%;
+    margin: -18px auto;
+}
+
+footer p {
+    background-color: #00B333;
+    color: white;
+    font: normal 300 1.1em var(--fonteparagrafo);
+    padding: 10px 0px;
+}
+
+.bloco:hover {
+    border: 1px solid red;
+}
