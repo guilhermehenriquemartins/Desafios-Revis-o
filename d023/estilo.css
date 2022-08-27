@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --tituloprincipal: 'Alfa Slab One', cursive;
+    --fontesubtitulo: 'Fira Sans', sans-serif;
+    --fonteparagrafo: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url('imgs/bandeira-brasil.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95.7vh;
+}
+
+h1 {
+    background-color: red;
+    color: white;
+    width: 280px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 5px 0px;
+    font: normal 2.5em var(--tituloprincipal);
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    font: normal 500 1.2em var(--fonteparagrafo);
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.20);
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 20px;
+    font: normal 400 1em var(--fonteparagrafo);
+    width: 80%;
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.quadrado {
+    display: inline-block;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+#ciro {
+    background-image: url('imgs/ciro\ gomes.png');
+    background-size: cover;
+}
+
+#ciro p {
+    position: absolute;
+    margin: -1px;
+    padding: 1px 50px;
+    color: transparent;
+    text-align: center;
+    line-height: 150px;
+    background-color: transparent;
+}
+
+#bolsonaro {
+    background-image: url('imgs/bolsonaro.jpg');
+    background-size: cover;
+}
+
+#bolsonaro p {
+    position: absolute;
+    margin: -1px;
+    padding: 1px 27px;
+    color: transparent;
+    text-align: center;
+    line-height: 150px;
+    background-color: transparent;
+}
+
+#lula {
+    background-image: url('imgs/lula.jpg');
+    background-size: cover;
+}
+
+#lula p {
+    position: absolute;
+    margin: -1px;
+    padding: 1px 50px;
+    color: transparent;
+    text-align: center;
+    line-height: 150px;
+    background-color: transparent;
+}
+
+#tebet {
+    background-image: url('imgs/simone\ tebet.jpg');
+    background-size: cover;
+}
+
+#tebet p {
+    position: absolute;
+    margin: -1px;
+    padding: 1px 44px;
+    color: transparent;
+    text-align: center;
+    line-height: 150px;
+    background-color: transparent;
+}
+
+.quadrado p {
+    font: normal 500 1em var(--fonteparagrafo);
+}
+
+#ciro:hover p {
+    text-indent: 0px;
+    font-size: 1.8em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.30);
+    padding: 1px 48px;
+    transition-duration: 0.4s;
+}
+
+#bolsonaro:hover p {
+    text-indent: 0px;
+    font-size: 1.8em;
+    padding: 1px 6px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.30);
+    transition-duration: 0.4s;
+}
+
+#lula:hover p {
+    text-indent: 0px;
+    padding: 1px 47px;
+    font-size: 1.8em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition-duration: 0.4s;
+}
+
+#tebet:hover p {
+    text-indent: 0px;
+    padding: 1px 37px;
+    font-size: 1.8em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.30);
+    transition-duration: 0.4s;
+}
+
+footer {
+    text-align: center;
+    background-color: #00B333;
+    max-width: 1000px;
+    min-width: 300px;
+    padding: 1px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+}
+
+footer p {
+    color: white;
+    font: normal 300 1em var(--fonteparagrafo);
+}
