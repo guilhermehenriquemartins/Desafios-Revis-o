@@ -11,10 +11,92 @@
     --fonteparagrafo: 'Open Sans', sans-serif;
 }
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
-    background-image: url('imgs/bandeira-brasil.jpg');
+    background: black url('imgs/bandeira-brasil.jpg') left top no-repeat fixed;
+    background-size: cover;
+}
+
+h1 {
+    font: normal 500 2em var(--fontetitulo);
+    text-align: center;
+    padding: 10px 0px;
+}
+
+header {
+    background-color: white;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 1030px;
+    min-width: 300px;
+    margin: 20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.308);
+}
+
+main p {
+    font: normal 400 1em var(--fonteparagrafo);
+    text-align: justify;
+    text-indent: 20px;
+    padding: 20px 0px;
+    line-height: 25px;
+}
+
+aside {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+h2 {
+    font: normal 500 1.5em var(--fontetitulo);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #005518;
+    padding: 15px 0px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+li {
+    color: white;
+    background-color: #005518;
+    font: normal 400 0.8em var(--fonteparagrafo);
+    line-height: 25px;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    text-indent: 20px;
+    width: 60%;
+    margin: 20px auto;
 }
 
 img {
     width: 300px;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background-color: #00B333;
+    color: white;
+    padding: 15px 0px;
+    font: normal 300 1em var(--fonteparagrafo);
+    text-align: center;
 }
