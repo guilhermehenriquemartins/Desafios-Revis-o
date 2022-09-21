@@ -19,7 +19,7 @@
 body {
     background: black url('imgs/academia.jpg') center top no-repeat;
     background-size: cover;
-    height: 95.5vh;
+    height: 99vh;
 }
 
 header {
@@ -59,11 +59,15 @@ main {
     height: 470px;
 }
 
+section {
+    width: 100%;
+}
+
 .TREINO {
     display: inline-block;
     border: 1px solid white;
     height: 160px;
-    width: 170px;
+    width: 30%;
     border-radius: 5px;
     margin: 5px;
 }
@@ -98,4 +102,114 @@ main {
 #B {
     background: black url('imgs/Biceps.jpg') right center no-repeat;
     background-size: cover;
+}
+
+#B {
+    position: relative;
+}
+
+#B > p {
+    position: absolute;
+    color: transparent;
+    background-color: transparent;
+    padding: 5px 0px;
+    width: 100%;
+    top: 94%;
+    height: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font: normal 500 1em var(--fonteparagrafo);
+}
+
+#B:hover > p {
+    color: black;
+    background-color: yellow;
+    height: 23px;
+    top: 80%;
+    transition-duration: 0.3s;
+}
+
+#C {
+    position: relative;
+    background: black url('imgs/pernas.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#C > p {
+    position: absolute;
+    color: transparent;
+    background-color: transparent;
+    width: 100%;
+    font: normal 500 1em var(--fonteparagrafo);
+    padding: 5px 0px;
+    top: 94%;
+    height: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#C:hover > p {
+    color: black;
+    background-color: yellow;
+    height: 23px;
+    top: 80%;
+    transition-duration: 0.3s;
+}
+
+#D {
+    position: relative;
+    background: black url('imgs/peito.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#D > p {
+    position: absolute;
+    color: transparent;
+    background-color: transparent;
+    font: normal 500 1em var(--fonteparagrafo);
+    width: 100%;
+    padding: 5px 0px;
+    top: 94%;
+    height: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#D:hover > p {
+    color: black;
+    background-color: yellow;
+    height: 23px;
+    top: 80%;
+    transition-duration: 0.3s;
+}
+
+#E {
+    position: relative;
+    background: black url('imgs/costas\ e\ biceps.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#E > p {
+    position: absolute;
+    color: transparent;
+    background-color: transparent;
+    font: normal 500 1em var(--fonteparagrafo);
+    width: 100%;
+    top: 94%;
+    height: 0px;
+    padding: 5px 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#E:hover > p {
+    color: black;
+    background-color: yellow;
+    height: 23px;
+    top: 80%;
+    transition-duration: 0.3s;
+}
+
+footer {
+    background-color: red;
 }
