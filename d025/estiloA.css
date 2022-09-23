@@ -36,7 +36,7 @@ header p {
     color: #43423d;
     max-width: 500px;
     min-width: 200px;
-    margin: auto;
+    margin: 10px auto 0px auto;
     padding: 2px;
     font: normal 900 1.5em var(--fontedestaque);
 }
@@ -53,6 +53,49 @@ main {
     padding: 2px;
 }
 
-main h2, p, ul {
+main p, ul {
     color: white;
+}
+
+h2 {
+    font: normal 700 1.1em var(--fonteparagrafo);
+    margin: 15px 0px;
+    color: yellow;
+}
+
+li {
+    font: normal 400 .9em var(--fonteparagrafo);
+    list-style-position: inside;
+    line-height: 30px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    margin-top: 60px;
+    padding: 15px;
+    font: italic 400 1em var(--fonteparagrafo);
+}
+
+.peso {
+    background-color: white;
+    color: black;
+    padding: 0px 40px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+img {
+    background-color: black;
+    border-radius: 50%;
+    padding: 2px;
+    margin-top: 50px;
+    width: 50px;
+}
+
+img:hover {
+    outline-style: solid;
+    outline-width: 10px;
+    outline-color: black;
+    transition-duration: 0.3s;
 }
