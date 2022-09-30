@@ -15,19 +15,19 @@
 }
 
 * {
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
 }
 
 body {
     text-align: center;
-    background: black url('imgs/pernas\ 2.jpg') center center no-repeat fixed;
+    background: black url('imgs/peito\ 2.jpg') center center no-repeat fixed;
     background-size: cover;
 }
 
 header h1 {
-    font: normal 900 2.5em var(--fontedestaque);
     color: white;
+    font: normal 900 2.5em var(--fontedestaque);
     margin-top: 30px;
 }
 
@@ -38,29 +38,30 @@ header h1 {
 header p {
     background-color: yellow;
     color: #43423D;
+    font: normal 900 1.5em var(--fontedestaque);
     max-width: 500px;
     min-width: 200px;
-    margin: 10px auto 0px auto;
-    padding: 7px 2px;
-    font: normal 900 1em var(--fontedestaque);
+    margin: 10px auto;
+    padding: 2px;
 }
 
 main {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.60), transparent);
-    color: white;
     max-width: 500px;
     min-width: 200px;
     margin: auto;
+    margin-top: -10px;
     padding: 2px;
 }
 
 h2 {
     color: yellow;
     font: normal 700 1.1em var(--fonteparagrafo);
-    margin: 15px 0px;
+    margin: 15px auto;
 }
 
 li {
+    color: white;
     list-style-position: inside;
     font: normal 400 .9em var(--fonteparagrafo);
     line-height: 30px;
