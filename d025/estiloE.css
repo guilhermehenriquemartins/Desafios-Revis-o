@@ -21,7 +21,7 @@
 
 body {
     text-align: center;
-    background: black url('imgs/costas\ 2.jpg') center top no-repeat fixed;
+    background: black url('imgs/costas\ e\ biceps\ 2.jpg') center top no-repeat fixed;
     background-size: cover;
 }
 
@@ -31,18 +31,19 @@ header h1 {
     margin-top: 30px;
 }
 
-header p {
-    background-color: yellow;
-    color: #43423d;
-    max-width: 500px;
-    min-width: 200px;
-    margin: 10px auto 0px auto;
-    padding: 2px;
-    font: normal 900 1.5em var(--fontedestaque);
-}
-
 #destaque {
     color: yellow;
+}
+
+header p {
+    background-color: yellow;
+    color: #43423D;
+    max-width: 500px;
+    min-width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px 2px;
+    font: normal 900 1.2em var(--fontedestaque);
 }
 
 main {
@@ -51,33 +52,22 @@ main {
     min-width: 200px;
     margin: auto;
     padding: 2px;
+    color: white;
 }
 
-main p, ul {
-    color: white;
+ul {
+    list-style-position: inside;
 }
 
 h2 {
-    font: normal 700 1.1em var(--fonteparagrafo);
-    margin: 15px auto;
     color: yellow;
-    background-color: transparent;
-    width: 350px;
-    border-radius: 100px;
+    font: normal 600 1.1em var(--fonteparagrafo);
+    margin: 15px;
 }
 
 li {
-    font: normal 400 .9em var(--fonteparagrafo);
-    list-style-position: inside;
+    font: normal 300 .9em var(--fonteparagrafo);
     line-height: 30px;
-}
-
-footer {
-    color: white;
-    background-color: black;
-    margin-top: 60px;
-    padding: 15px;
-    font: italic 400 1em var(--fonteparagrafo);
 }
 
 .peso {
@@ -89,36 +79,21 @@ footer {
 }
 
 img {
+    width: 50px;
+    margin: 60px auto;
     background-color: black;
     border-radius: 50%;
-    padding: 2px;
-    margin-top: 50px;
-    width: 50px;
+    padding: 1px;
 }
 
 img:hover {
-    outline-style: solid;
-    outline-width: 10px;
-    outline-color: black;
+    outline: solid black 10px;
     transition-duration: 0.3s;
 }
 
-a {
-    text-decoration: none;
-}
-
-h2::after {
-    content: '\00A0\00A0\1F517';
-}
-
-h2:hover {
-    color: white;
-    background-color: #1a1a1a;
-    transition-duration: 0.3s;
-}
-
-h2:active {
+footer {
     background-color: black;
-    color: yellow;
-    transition-duration: 0.1s;
+    color: white;
+    padding: 15px 0px;
+    font: italic 400 1em var(--fonteparagrafo);
 }
