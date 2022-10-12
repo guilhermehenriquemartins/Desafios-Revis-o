@@ -50,6 +50,7 @@ section {
 
 .imagem {
     background-color: #585858;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.258);
 }
 
 section.normal > p {
@@ -63,13 +64,14 @@ section.normal > p {
 }
 
 .imagem > p {
-    display: inline-block;
     font: normal 400 1em var(--fonteparagrafo);
     color: white;
     background-color: rgba(0, 0, 0, 0.255);
     padding: 20px;
     text-align: left;
     line-height: 2em;
+    width: 50%;
+    margin-left: 20px;
 }
 
 footer {
@@ -116,6 +118,7 @@ a {
 
 h2 {
     font: 2em var(--fontesubprincipal);
+    padding: 20px;
 }
 
 #amarela {
@@ -144,4 +147,54 @@ h2 {
 
 #vermelha {
     color: red;
+}
+
+#img01 {
+    background: black url('imgs/Faixa\ Branca.jpg') right center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img02 {
+    background: black url('imgs/Faixa\ Amarela.jpg') right center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img03 {
+    background: black url('imgs/Faixa\ Laranja.jpg') right center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img04 {
+    background: black url('imgs/Faixa\ Verde.jpg') right center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img05 {
+    background: black url('imgs/Faixa\ Azul.jpg') right center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img06 {
+    background: black url('imgs/Faixa\ Marrom.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+
+#img07 {
+    background: black url('imgs/Faixa\ Preta.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+
+#img08 {
+    background: black url('imgs/Faixa\ Vermelha\ e\ Branca.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+
+#img09 {
+    background: black url('imgs/Faixa\ Vermelha.jpg') right center no-repeat fixed;
+    background-size: cover;
 }
