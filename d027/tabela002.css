@@ -8,6 +8,7 @@ table {
     border-collapse: collapse;
     border: 1px solid lightgray;
     width: 600px;
+    position: relative;
 }
 
 td, th {
@@ -17,6 +18,12 @@ td, th {
 thead {
     background-color: gray;
     color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: gray;
 }
 
 tfoot {
